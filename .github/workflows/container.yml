@@ -21,4 +21,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: workspace_artifacts
-          path: "/home/runner/work/_actions/actions/hello-world-docker-action"
+          path: "/home/runner/work/test_action_container/test_action_container"
