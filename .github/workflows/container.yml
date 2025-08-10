@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: actions/hello-world-docker-action@v2
+        uses: ./test
         with:
           who-to-greet: "Mona the Octocat"
       # Use the output from the `hello` step
@@ -20,5 +20,3 @@ jobs:
         with:
           name: workspace_artifacts
           path: "/home/runner/work/_actions/actions/hello-world-docker-action"
-      - name: test
-        run: echo ${{ github.workspace }}
