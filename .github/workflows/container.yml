@@ -19,6 +19,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: workspace_artifacts
-          path: "/home/runner/work/_actions/actions/hello-world-docker-action/v2/Dockerfile"
+          path: "/home/runner/work/_actions/actions/hello-world-docker-action"
       - name: test
         run: echo ${{ github.workspace }}
